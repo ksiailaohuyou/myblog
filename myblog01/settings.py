@@ -140,6 +140,7 @@ HAYSTACK_CONNECTIONS = {
 			    },
 }
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+STATIC_ROOT=os.path.join(BASE_DIR,'static')
 # admin
 # 123456abc
 
