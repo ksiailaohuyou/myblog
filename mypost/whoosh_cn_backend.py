@@ -911,6 +911,6 @@ class WhooshSearchQuery(BaseSearchQuery):
 
 
 class WhooshEngine(BaseEngine):
-    print ('使用的是自定义的')
+    # print ('使用的是自定义的')
     backend = WhooshSearchBackend
     query = WhooshSearchQuery
